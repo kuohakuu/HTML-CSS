@@ -65,6 +65,8 @@ header > a{
   text-align: center;
 
 }
+
+/*Pra quem não tem muito contato com CSS isso aqui significa que quando eu passar o mouse encima do ta tag a, vai ser iniciado um evento em #information*/ 
 header > a:hover ~ #information{
     opacity: 1;
 }
