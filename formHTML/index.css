@@ -14,7 +14,7 @@ body, html{
 form{
     display: table;
     max-width: 90%;
-    margin: 60px auto;
+    margin: 1rem auto;
     padding: 1rem;
     background-color: #00ffff54;
     border-radius: .5rem;
@@ -44,4 +44,27 @@ button {
 }
 button:hover{
     background-color: greenyellow;
+}
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+header > a{
+    background-color: red;
+    border-radius: 50%;
+    margin-top: .2rem;
+    padding: 1rem;
+    font-weight: 900;
+    color: #fff;
+}
+#information{
+  margin: .2rem ;
+  opacity: 0;
+  transition:  .4s all linear ;
+  text-align: center;
+
+}
+header > a:hover ~ #information{
+    opacity: 1;
 }
