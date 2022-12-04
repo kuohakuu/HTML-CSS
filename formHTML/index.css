@@ -1,0 +1,41 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+}
+
+body, html{
+    background: #fff;
+}
+
+form{
+    display: table;
+    max-width: 90%;
+    margin: 60px auto;
+    padding: 1rem;
+    background-color: #00ffff54;
+    border-radius: .5rem;
+}
+fieldset{
+    padding: .5rem;
+    margin: .5rem;
+}
+
+label, input, p, h3{
+    margin: .5rem;
+}
+
+#inputEmail, #inputName, #inputLastName {
+    border: none;
+    padding: .5rem;
+    border-radius: .2rem;
+}
+
+button {
+    display: block;
+    height: 2rem;
+    margin: ;
+}
