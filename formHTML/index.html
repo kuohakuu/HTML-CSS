@@ -7,6 +7,113 @@
     <title>Form</title>
 </head>
 <body>
-    
+    <header>
+    <div>
+        <h1>Formulário Simples HTML</h1>
+        <p>Foco no HTML com CSS moderado</p>
+    </div>
+    </header>
+    <form>
+        <fieldset id="userData">
+            <div id="primaryData">
+                <label for="inputName">Nome:</label>
+                <input type="text" placeholder="Primeiro nome" class="input" id="inputName">
+
+                <label for="inputLastName">Sobrenome:</label>
+                <input type="text" placeholder="Último nome" class="input" id="inputLastName">
+
+                <label for="inputEmail">E-mail:</label>
+                <input type="email" placeholder="E-mail"name="inputEmail" id="inputEmail" class="input">
+            </div>
+            <div id="secondaryData">
+                <label for="setGender">Genêro</label>
+                <label for="
+                "><input type="radio" name="setGender" id="setGender" value="male" checked>Masculino
+                <input type="radio" name="setGender" id="setGender" value="female">Feminino
+                <input type="radio" name="setGender" id="setGender" value="undefined">Prefiro não dizer
+            </label>
+            </div>
+        </fieldset>
+        <fieldset id="userPreferences">
+            <div id="streaming">
+            <h3>Qual seu Streaming preferido?</h2>
+            <label for="firstStreaming">
+                <input type="checkbox" name="firstStreaming" id="firstStreaming" value="netflix" >Netflix
+            </label>
+            <label for="secondStreaming">
+                <input type="checkbox" name="secondStreaming" id="secondStreaming" value="prime-video">Prime Video
+            </label>
+            <label for="thirdStreaming">
+                <input type="checkbox" name="thirdStreaming" id="thirdStreaming" value="disney-plus">Disney+
+            </label>
+            <label for="fourthStreaming">
+                <input type="checkbox" name="fourthStreaming" id="fourthStreaming" value="star-plus">Star+
+            </label>
+            <label for="fifthStreaming">
+                <input type="checkbox" name="fifthStreaming" id="fifthStreaming" value="hbo-max">HBO MAX
+            </label>
+            <label for="sixthStreaming">
+                <input type="checkbox" name="sixthStreaming" id="sixthStreaming" value="paramount-plus">Paramount+
+            </label>
+            <label for="seventhStreaming">
+                <input type="checkbox" name="seventhStreaming" id="seventhStreaming" value="globo-play">Globo Play
+            </label>
+        </div>
+        <div id="genders">
+            <h3>Qual seu genêro preferido?</h3>
+            <label for="genderAction">
+                <input type="checkbox" name="genderAction" id="genderAction" value="action">Ação
+            </label>
+            <label for="genderAdventure">
+                <input type="checkbox" name="genderAdventure" id="genderAdventure" value="adventure">Aventura
+            </label>
+            <label for="genderComedy">
+                <input type="checkbox" name="genderComedy" id="genderComedy" value="comedy">Comédia
+            </label>
+            <label for="genderDrama">
+                <input type="checkbox" name="genderDrama" id="genderDrama" value="drama">Drama
+            </label>
+            <label for="genderFantasy">
+                <input type="checkbox" name="genderFantasy" id="genderFantasy" value="fantasy">Fantasia
+            </label>
+            <label for="genderSify">
+                <input type="checkbox" name="genderSify" id="genderSify" value="sify">Ficção Científica
+            </label>
+            <label for="genderMistery">
+                <input type="checkbox" name="genderMistery" id="genderMistery" value="action">Mistério
+            </label>
+            <label for="genderMusical">
+                <input type="checkbox" name="genderMusical" id="genderMusical" value="musical">Musical
+            </label>
+            <label for="genderTerror">
+                <input type="checkbox" name="genderTerror" id="genderTerror" value="action">Terror
+            </label>
+            <label for="genderRomance">
+                <input type="checkbox" name="genderRomance" id="genderRomance" value="romance">Romance
+            </label>
+        </div>
+        <div id="yourFavoriteMovie">
+            <p>Eu sei que você têm um filme favorito, seja ele ação, aventura ou qualquer outro filme.
+            </p>
+            <p>Conta pra gente o que mais você gosta nele e claro qual é o filme logo abaixo 👇🏽</p>
+            <textarea name="descFavoriteMovie" id="descFavoriteMovie" cols="70" rows="10"></textarea>
+        </div>
+        </fieldset>
+        <fieldset id="Avaliation">
+            <div id="tertiaryData">
+                <label for="setYourAvalation">Sobre esse formulário</label>
+                <select name="setYourAvalation" id="setYourAvalation">
+                    <option selected disabled value="">Avalie esse formulário!⭐⭐⭐⭐⭐</option>
+                    <option value="5">Show de bola!! 🤩</option>
+                    <option value="4">Gostei, bota mais CSS ai! ☺️</option>
+                    <option value="3">Tá bacana até! 😁</option>
+                    <option value="2">Bem fraquinho! 😪</option>
+                    <option value="1">Mano apaga isso! 🫣</option>
+                    <option value="0">Muito ruim, até me ofende! 😣</option>
+                </select>
+            </div>
+        </fieldset>
+        <button>Enviar</button>
+    </form>
 </body>
 </html>
