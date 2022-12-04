@@ -36,6 +36,12 @@ label, input, p, h3{
 
 button {
     display: block;
-    height: 2rem;
-    margin: ;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    padding: .5rem;
+    margin: 1rem auto;
+}
+button:hover{
+    background-color: greenyellow;
 }
